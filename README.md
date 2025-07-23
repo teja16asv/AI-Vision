@@ -44,14 +44,6 @@ Developed a web application that performs object detection on uploaded MP4 video
 
 ---
 
-## 📂 Sample Video
-
-A small sample video is included in the repository to test the app.
-
-*File:* `sample_video.mp4`
-
----
-
 ## 📦 Dataset
 
 The YOLOv5 model used is pretrained on the [COCO dataset](https://cocodataset.org/#home), which contains 80 common object categories like person, car, dog, etc.
@@ -59,5 +51,4 @@ The YOLOv5 model used is pretrained on the [COCO dataset](https://cocodataset.or
 ---
 
 💡 Feel free to contribute, raise issues, or provide suggestions! 😊  
-⭐ Don't forget to give the repo a star if you found it helpful!
 
