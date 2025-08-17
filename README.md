@@ -17,7 +17,7 @@ Developed a web application that performs object detection on uploaded MP4 video
 
 ## 📸 Screenshot
 
-![AI-Vision Screenshot](<img width="1919" height="930" alt="Screenshot 2025-07-23 203246" src="https://github.com/user-attachments/assets/90c5ec33-e50f-44ea-af71-cf89dc436c9c" />)
+![AI-Vision Screenshot](https://github.com/teja16asv/AI-Vision/blob/main/Images/Screenshot1.png)
 
 
 ---
