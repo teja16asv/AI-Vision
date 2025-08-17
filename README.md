@@ -17,7 +17,7 @@ Developed a web application that performs object detection on uploaded MP4 video
 
 ## 📸 Screenshot
 
-![AI-Vision Screenshot]([https://github.com/teja16asv/AI-Vision/issues/1#issue-3256909693](https://private-user-images.githubusercontent.com/145701247/469860070-8701ec81-eba0-44ac-a272-8d84c3fabfb2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyODY0OTUsIm5iZiI6MTc1MzI4NjE5NSwicGF0aCI6Ii8xNDU3MDEyNDcvNDY5ODYwMDcwLTg3MDFlYzgxLWViYTAtNDRhYy1hMjcyLThkODRjM2ZhYmZiMi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzIzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDcyM1QxNTU2MzVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iMjYwM2ExZWI5OGExNjg1YjI4NWZhMWYzNmQ4YTgzYTA5NGMwOWQ3ODc0OTNjMmQ4YjE4NjQwMDgyMzcxOWIxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.P_HRF8X1fa-TlDHyRF_DTF0V7d7kEgjP6Cb7o0fZEGQ))
+![AI-Vision Screenshot](<img width="1919" height="930" alt="Screenshot 2025-07-23 203246" src="https://github.com/user-attachments/assets/90c5ec33-e50f-44ea-af71-cf89dc436c9c" />)
 
 
 ---
