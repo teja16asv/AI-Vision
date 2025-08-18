@@ -12,7 +12,6 @@ st.title("YOLOv9 Video Object Detection")
 uploaded_file = st.file_uploader("Upload a video", type=["mp4", "avi", "mov"])
 
 if uploaded_file is not None:
-    # Save uploaded video to temp file
     temp_input = tempfile.NamedTemporaryFile(delete=False, suffix=".mp4")
     temp_input.write(uploaded_file.read())
     temp_input.close()
@@ -21,27 +20,24 @@ if uploaded_file is not None:
     temp_output = tempfile.NamedTemporaryFile(delete=False, suffix=".mp4")
     temp_output.close()
 
-    # Process video frame by frame
+    #frame by frame processing
     cap = cv2.VideoCapture(temp_input.name)
     fourcc = cv2.VideoWriter_fourcc(*"mp4v")
     out = cv2.VideoWriter(temp_output.name, fourcc, int(cap.get(5)), 
                           (int(cap.get(3)), int(cap.get(4))))
 
-    stframe = st.empty()  # placeholder for video frames
+    stframe = st.empty()
 
     while cap.isOpened():
         ret, frame = cap.read()
         if not ret:
             break
 
-        # Run YOLOv9 detection
         results = model.predict(frame, conf=0.5, verbose=False)
         annotated_frame = results[0].plot()  # draw boxes
 
-        # Write to output file
         out.write(annotated_frame)
 
-        # Show live preview in Streamlit
         stframe.image(annotated_frame, channels="BGR")
 
     cap.release()
@@ -49,10 +45,9 @@ if uploaded_file is not None:
 
     st.success("Processing complete ✅")
 
-    # Display final processed video
+    # Displaying final output
     st.video(temp_output.name)
 
-    # Cleanup on rerun
     os.remove(temp_input.name)
 
 
@@ -130,3 +125,4 @@ if uploaded_file is not None:
 #         st.write(f"- **{label}**: {count}")
 
 #     st.success("✅ Video processed successfully!")
+
