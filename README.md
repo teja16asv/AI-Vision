@@ -1,6 +1,6 @@
-# 🎯 AI-Vision: Video Object Detection Web App 🚀
+# 🎯 Object Detection using YOLOv9 🚀
 
-Developed a web application that performs object detection on uploaded MP4 videos using the YOLOv5 model. This project leverages PyTorch, OpenCV, and Streamlit to enable users to upload videos and view real-time detection with a summary of object counts — all within a simple browser interface.
+Developed a web application that performs object detection on uploaded MP4 videos using the YOLOv9 model. This project leverages PyTorch, OpenCV, and Streamlit to enable users to upload videos and view real-time detection with a summary of object counts — all within a simple browser interface.
 
 ---
 
@@ -25,10 +25,10 @@ Developed a web application that performs object detection on uploaded MP4 video
 ## 🛠️ Steps to Run the Web App:
 
 * Clone the Repository  
-    `git clone https://github.com/your-username/AI-Vision.git`
+    `git clone https://github.com/your-username/object-detection.git`
 
 * Open the folder  
-    `cd AI-Vision`
+    `cd object-detection`
 
 * Install the required dependencies  
     `pip install -r requirements.txt`
@@ -46,7 +46,7 @@ Developed a web application that performs object detection on uploaded MP4 video
 
 ## 📦 Dataset
 
-The YOLOv5 model used is pretrained on the [COCO dataset](https://cocodataset.org/#home), which contains 80 common object categories like person, car, dog, etc.
+The YOLOv9 model used is pretrained on the COCO dataset, which likewise contains 80 common object categories such as person, car, dog, and more.
 
 ---
 
